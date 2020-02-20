@@ -13,5 +13,15 @@ public class ArraysDemo {
 		{
 			out.println(x);
 		}
+		
+		//Defining new array
+		int[] b = new int[5];
+		
+		for(int i=0; i<b.length; i++)
+		{
+			b[i] = i;
+		}
+		
+		out.println(b[4]);
 	}
 }
